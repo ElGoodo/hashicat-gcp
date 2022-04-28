@@ -1,6 +1,6 @@
 module "vpc" {
     source  = "app.terraform.io/rp-org/network/google"
-    version = "~> 3.0"
+    version = "3.4.0"
 
     project_id   = var.project
     network_name = "example-vpc"
