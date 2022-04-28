@@ -1,5 +1,5 @@
 module "vpc" {
-    source  = "github.com/ElGoodo/terraform-google-network/tree/master/modules/vpc"
+    source  = "ElGoodo/terraform-google-network/tree/master/modules/vpc"
     version = "~> 3.0"
 
     project_id   = var.project
